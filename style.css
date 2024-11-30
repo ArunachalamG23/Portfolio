@@ -6,7 +6,9 @@
   margin: 0;
   padding: 0;
 }
-
+.justified-text {
+      text-align: justify;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -185,11 +187,11 @@ section {
   font-weight: 600;
 }
 
-.section__text__p1 {
+.section_text_p1 {
   text-align: center;
 }
 
-.section__text__p2 {
+.section_text_p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }

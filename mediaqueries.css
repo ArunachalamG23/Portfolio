@@ -56,7 +56,21 @@
     height: 83vh;
     margin-bottom: 0;
   }
-  article {
+  article{
+    width: 100%;
+    max-width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .article-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 1rem; /* Adjust spacing */
+    align-items: center; /* Center-align articles */
+  }
+  article h3, article p{
     font-size: 1rem;
   }
   footer nav {
@@ -77,6 +91,7 @@
   }
   .experience-sub-title {
     font-size: 1.25rem;
+    text-align: center;
   }
   .logo {
     font-size: 1.5rem;
@@ -91,13 +106,13 @@
     height: 46vw;
     justify-content: center;
   }
-  .section__text__p2 {
+  .section_text_p2 {
     font-size: 1.25rem;
   }
   .title {
     font-size: 2rem;
   }
-  .text-container {
+  .text-container{
     text-align: justify;
   }
 }
